@@ -6,9 +6,12 @@ function startblackjack() {
 }
 
 function hit() {
+
 	controls.hit();
 }
 
 function stay() {
+
 	controls.stay();
 }
+

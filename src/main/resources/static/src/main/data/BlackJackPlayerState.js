@@ -12,6 +12,10 @@ class BlackJackPlayerState {
         const incomingCard = deck.removeAndFetchTopMostCard();
         this.addCard(incomingCard);
     }
+    getCards(){
+   return this.cards;
+   //return "get cards method"
+    }
     
     addCard(cardToAddToHand) {
         this.cards.push(cardToAddToHand);
